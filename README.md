@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏢 Companies Directory
 
-# Run and deploy your AI Studio app
+A responsive React-based frontend application that displays a list of companies with filtering, sorting, pagination, and theme toggle support.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+- View companies in a clean card layout  
+- Filter by **name**, **industry**, and **location**  
+- Sort by **company name** or **founded year**  
+- Paginate results (6 per page)  
+- Responsive dark/light theme toggle  
+- Loading and error handling states  
 
-View your app in AI Studio: https://ai.studio/apps/drive/1FyOyW3hgxcAIYNUrob7NzLaSNa7_TMsZ
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🧠 Tech Stack
+- **React.js** (Frontend Framework)  
+- **TypeScript** (Type safety)  
+- **Tailwind CSS** (Styling)  
+- **Context API + Hooks** (State management)  
+- **Mock API** using static JSON file  
