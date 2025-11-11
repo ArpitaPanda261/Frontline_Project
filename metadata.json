@@ -1,0 +1,5 @@
+{
+  "name": "Companies Directory",
+  "description": "A responsive React application that displays a directory of companies with features for filtering, sorting, and pagination.",
+  "requestFramePermissions": []
+}
