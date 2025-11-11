@@ -4,7 +4,7 @@ class CompaniesRepo {
   private companiesPromise: Promise<Company[]>;
 
   constructor() {
-    this.companiesPromise = fetch('./database/companies.json').then(response => {
+    this.companiesPromise = fetch('/database/companies.json').then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
